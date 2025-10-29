@@ -419,4 +419,7 @@ async def on_message(message):
 
 # Executar o bot
 if __name__ == "__main__":
-    client.run('MTQzMjc1ODkzMzk4MjAxOTcyOQ.GCjfVq.GcLfrHVjrXfn93DCdmDSkfefEPjmerK4N_ld8A')
+    import os
+client.run(os.getenv("DISCORD_TOKEN"))
+
+
